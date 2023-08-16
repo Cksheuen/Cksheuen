@@ -15,7 +15,7 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes
 })
-
+/*
 router.beforeEach((to) => {
   if(to.path.includes('login')) {
     return true
@@ -27,6 +27,6 @@ router.beforeEach((to) => {
     return true
   }
 })
-
+*/
 
 export default router
